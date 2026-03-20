@@ -63,13 +63,7 @@ An AI-powered web application that predicts mental health recovery timelines usi
 
 ### Installation
 
-1. **Clone the repository**
-```bash
-git clone <repository-url>
-cd mental-health-recovery-app
-```
-
-2. **Set up Python environment**
+**Set up Python environment**
 ```powershell
 # Using Conda
 conda create -n mental-health python=3.9
@@ -78,24 +72,18 @@ conda activate mental-health
 # Install dependencies
 pip install -r backend/requirements.txt
 ```
-
-3. **Set up Frontend**
+**Set up Frontend**
 ```powershell
 cd mental-health-frontend
 npm install
 cd ..
 ```
-
-4. **Run the application**
+**Run the application**
 ```powershell
 # Single command to start both backend and frontend
 python run_app.py
 ```
 
-5. **Access the application**
-- Frontend: http://localhost:5173
-- Backend API: http://localhost:8000
-- API Docs: http://localhost:8000/docs
 
 ##  Usage
 
