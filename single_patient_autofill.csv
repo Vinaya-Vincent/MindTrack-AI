@@ -1,0 +1,2 @@
+age,gender,employment_status,occupation_type,education_level,income_level,living_situation,primary_diagnosis,severity_score,comorbid_conditions,medication,therapy_type,session_frequency,social_support,previous_treatment,family_history,doctor_prescribed_weeks
+28,Female,Employed,Professional,Bachelors,6,Independent,Depression,7,1,Yes,CBT,2,7,Yes,No,14

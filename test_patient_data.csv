@@ -1,0 +1,5 @@
+age,gender,employment_status,occupation_type,education_level,income_level,living_situation,primary_diagnosis,severity_score,comorbid_conditions,medication,therapy_type,session_frequency,social_support,previous_treatment,family_history,doctor_prescribed_weeks
+25,Male,Employed,Professional,Bachelors,7,With Family,Depression,6,1,Yes,CBT,2,8,Yes,No,12
+32,Female,Employed,Professional,Masters,8,With Family,Anxiety,5,0,Yes,DBT,1,9,No,Yes,10
+45,Male,Unemployed,Skilled,High School,3,Alone,PTSD,8,2,Yes,EMDR,1,4,Yes,Yes,16
+28,Female,Employed,Professional,Bachelors,6,Independent,Depression,7,1,Yes,CBT,2,7,Yes,No,14
