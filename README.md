@@ -147,7 +147,7 @@ See `CHATBOT_SAMPLE_QUESTIONS.md` for 75+ example questions!
 - `POST /api/upload` - CSV batch upload
 - `POST /api/explain` - Get AI explanation
 
-### Chatbot (NEW!)
+### Chatbot 
 - `POST /api/chat` - Send message to chatbot
 - `GET /api/chat/suggestions` - Get suggested questions
 - `GET /api/chat/history` - View conversation history
