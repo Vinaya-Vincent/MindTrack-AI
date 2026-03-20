@@ -1,21 +1,17 @@
-# 🧠 Mental Health Recovery Prediction App
+#  Mental Health Recovery Prediction App
 
 An AI-powered web application that predicts mental health recovery timelines using advanced machine learning models, with explainable AI and an intelligent chatbot assistant.
 
-![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
-![Python](https://img.shields.io/badge/python-3.9+-green.svg)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-teal.svg)
-![React](https://img.shields.io/badge/React-18.2.0-blue.svg)
 
-## ✨ Features
+##  Features
 
-### 🎯 Core Functionality
+###  Core Functionality
 - **Recovery Time Prediction**: Predicts recovery time in weeks based on patient data
 - **High Accuracy**: 89.15% average confidence using stacking ensemble models
 - **Confidence Scoring**: Provides confidence levels and prediction intervals
 - **Risk Assessment**: Identifies key risk factors and flags
 
-### 🤖 AI Chatbot (NEW!)
+###  AI Chatbot
 - **Intelligent Assistant**: Answers questions about mental health and the app
 - **Knowledge Base**: 5000+ words covering conditions, treatments, and usage
 - **Intent Classification**: Understands user queries automatically
@@ -23,20 +19,20 @@ An AI-powered web application that predicts mental health recovery timelines usi
 - **Conversation History**: Tracks chat exchanges
 - **Always Available**: Floating button on all pages
 
-### 🔍 Explainable AI
+### Explainable AI
 - **RAG Engine**: Retrieval-Augmented Generation for explanations
 - **Clinical Reasoning**: Evidence-based recommendations
 - **Key Factors**: Detailed breakdown of prediction drivers
 - **Transparency**: Clear insights into model decisions
 
-### 📊 Additional Features
+###  Additional Features
 - **History Tracking**: Search, filter, and sort predictions
 - **PDF Reports**: Comprehensive clinical documentation
 - **CSV Upload**: Batch predictions from files
 - **Dark Mode**: Toggle between themes
 - **Responsive Design**: Works on all devices
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Technology Stack
 
@@ -58,7 +54,7 @@ An AI-powered web application that predicts mental health recovery timelines usi
 - 30+ engineered features
 - Training data: 4000+ samples
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.9 or higher
@@ -101,7 +97,7 @@ python run_app.py
 - Backend API: http://localhost:8000
 - API Docs: http://localhost:8000/docs
 
-## 📖 Usage
+##  Usage
 
 ### Making Predictions
 
@@ -117,7 +113,7 @@ python run_app.py
 
 ### Using the Chatbot
 
-1. Look for the 💬 button in the bottom-right corner
+1. Look for the button in the bottom-right corner
 2. Click to open the chat window
 3. Ask questions like:
    - "What is this app about?"
@@ -154,7 +150,7 @@ See `CHATBOT_SAMPLE_QUESTIONS.md` for 75+ example questions!
 3. Upload file for batch predictions
 4. Download results CSV
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### Predictions
 - `POST /api/predict` - Submit prediction request
@@ -169,7 +165,7 @@ See `CHATBOT_SAMPLE_QUESTIONS.md` for 75+ example questions!
 - `GET /api/chat/history` - View conversation history
 - `DELETE /api/chat/history` - Clear chat history
 
-## 📊 Model Information
+##  Model Information
 
 ### Stacking Ensemble Architecture
 - **Base Models**:
@@ -191,29 +187,7 @@ See `CHATBOT_SAMPLE_QUESTIONS.md` for 75+ example questions!
 - **Social**: Support Level, Living Situation, Income
 - **Lifestyle**: (derived features)
 
-## 🧪 Testing
-
-### Run Tests
-```powershell
-# Backend tests
-cd backend
-pytest
-
-# Frontend tests
-cd mental-health-frontend
-npm test
-```
-
-### Manual Testing Checklist
-- [ ] Predictions work for all age groups
-- [ ] Chatbot responds to messages
-- [ ] History panel loads and filters correctly
-- [ ] PDF reports generate with proper formatting
-- [ ] CSV upload processes successfully
-- [ ] Dark/Light mode toggle works
-- [ ] All navigation links functional
-
-## 🛠️ Development
+##  Development
 
 ### Project Structure
 ```
@@ -241,99 +215,7 @@ mental-health-recovery-app/
 └── run_app.py
 ```
 
-### Adding New Features
-
-1. **Backend**: Add endpoint in `backend/app/api/`
-2. **Frontend**: Add component in `mental-health-frontend/src/components/`
-3. **API Client**: Update `mental-health-frontend/src/utils/api.js`
-4. **Routes**: Register in `backend/app/main.py`
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**Backend won't start:**
-- Check Python version (3.9+)
-- Verify all dependencies installed
-- Ensure ML model file exists
-
-**Frontend errors:**
-- Clear node_modules and reinstall
-- Check Node.js version (16+)
-- Verify API_BASE in constants.js
-
-**Chatbot not visible:**
-- Check browser console for errors
-- Verify chatbot.py is imported in main.py
-- Ensure Chatbot component in App.jsx
-
-**Age validation error:**
-- Fixed! Age now accepts 0-120 years
-- Update backend if using old code
-
-**PDF not generating:**
-- Ensure wkhtmltopdf is installed
-- Check file permissions
-- Verify path in report.py
-
-See `CLEANUP_GUIDE.md` for detailed fixes and cleanup instructions.
-
-## 📝 Recent Updates
-
-### Version 2.0.0 (November 2025)
-
-**🎉 Major Features:**
-- ✅ Added AI Chatbot with comprehensive knowledge base
-- ✅ Intent classification and RAG capabilities
-- ✅ Crisis response priority handling
-- ✅ Suggested questions and conversation history
-
-**🐛 Bug Fixes:**
-- ✅ Fixed age validation (now accepts all ages)
-- ✅ Added default form values to prevent errors
-- ✅ Fixed chatbot visibility on all pages
-- ✅ Improved PDF report formatting
-
-**🔧 Improvements:**
-- ✅ Enhanced knowledge base (5000+ words)
-- ✅ Better error handling
-- ✅ Improved form UX with defaults
-- ✅ Updated API documentation
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 🙏 Acknowledgments
-
-- Mental health research community
-- Scikit-learn and ML libraries
-- FastAPI and React ecosystems
-- Clinical knowledge resources
-
-## 📞 Support
-
-For issues, questions, or suggestions:
-- Open an issue on GitHub
-- Check `CHATBOT_SAMPLE_QUESTIONS.md` for usage help
-- Review `CLEANUP_GUIDE.md` for troubleshooting
-
-## ⚠️ Disclaimer
-
-This tool is designed to support, not replace, clinical judgment. Always consult qualified healthcare professionals for diagnosis and treatment decisions. In case of mental health crisis, call 988 (US) or your local emergency services immediately.
-
 ---
 
 **Built with ❤️ for better mental health care**
 
-*Last Updated: November 2025*
